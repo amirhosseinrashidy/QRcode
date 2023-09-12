@@ -1,0 +1,59 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins:400,500,600,700&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'noto sans Arabic', Tahoma;
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: #02e8f8;
+}
+.container{
+    width: 400px;
+    background: #080808;
+    border-radius: 10px;
+    padding: 30px;
+}
+.container .info h1{
+    font-family: 'Lalezar' , Tahoma;
+    text-align: center;
+    color: #fff;
+}
+.container .info p{
+    font-family: 'Lalezar' , Tahoma;
+    text-align: center;
+    color: #fff;
+}
+.container form{
+    margin: 15px 0 25px;   
+}
+.container form :where(input , button){
+    outline: 0;
+    border: 0;
+    width: 100%;
+    border-radius: 5px;
+    margin: 5px 0;
+    padding: 10px;
+    font-size: 16px;
+}
+.container form input{
+    border: 1px solid #999;
+    text-align: center;
+}
+.container form button{
+    background: #f5f5f4;
+    color: #020202;
+}
+.container .qr-code{
+    border: 1px solid #999;
+    border-radius: 5px;
+    text-align: center;
+    padding: 5px;
+}
+.hidden{
+    display: none;
+}
